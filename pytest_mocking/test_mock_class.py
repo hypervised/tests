@@ -7,7 +7,7 @@ from my_test_class import my_test_class
 
 class TestK8sClient:
     @patch('kubernetes.client.CoreV1Api.list_namespace')
-    def test_can_list_namespaces(self, mock_client):
+    def test_can_list_and_filter_namespaces(self, mock_client):
 
         with open("./mock_data.json") as f:
             class_created_from_file = json.load(f, object_hook=lambda d: SimpleNamespace(**d))
