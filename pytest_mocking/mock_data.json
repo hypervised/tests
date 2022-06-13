@@ -1,0 +1,144 @@
+{
+	"apiVersion": "v1",
+	"items": [{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"creationTimestamp": "2021-07-18T13:24:11Z",
+				"labels": {
+					"kubernetes.io/metadata.name": "some-namespace-1"
+				},
+				"name": "some-namespace-1",
+				"resourceVersion": "22",
+				"selfLink": "/api/v1/namespaces/some-namespace-1",
+				"uid": "643733cf-fce7-45e2-94ec-2f6ca8621569"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		},
+		{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"creationTimestamp": "2021-07-18T13:24:11Z",
+				"labels": {
+					"kubernetes.io/metadata.name": "some-namespace-2"
+				},
+				"name": "some-namespace-2",
+				"resourceVersion": "33",
+				"selfLink": "/api/v1/namespaces/some-namespace-2",
+				"uid": "c9ac8d27-5cd6-45ce-aaba-d2b3f079e5ef"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		},
+		{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"creationTimestamp": "2021-07-18T13:24:11Z",
+				"labels": {
+					"kubernetes.io/metadata.name": "some-namespace-3"
+				},
+				"name": "some-namespace-3",
+				"resourceVersion": "45",
+				"selfLink": "/api/v1/namespaces/some-namespace-3",
+				"uid": "8b9650f8-2c1d-4cf3-a9d0-4afb10272606"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		},
+		{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"creationTimestamp": "2021-07-18T13:24:12Z",
+				"labels": {
+					"kubernetes.io/metadata.name": "some-namespace-4"
+				},
+				"name": "some-namespace-4",
+				"resourceVersion": "88",
+				"selfLink": "/api/v1/namespaces/some-namespace-4",
+				"uid": "ddc2e8da-01ac-45f4-8ccb-3d39be1a15d5"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		},
+		{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"annotations": {
+					"kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Namespace\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"metallb\"},\"name\":\"some-namespace-5\"}}\n"
+				},
+				"creationTimestamp": "2021-07-18T13:57:04Z",
+				"labels": {
+					"app": "metallb",
+					"kubernetes.io/metadata.name": "some-namespace-5"
+				},
+				"name": "some-namespace-5",
+				"resourceVersion": "2839",
+				"selfLink": "/api/v1/namespaces/some-namespace-5",
+				"uid": "11d49b4d-728f-4ee8-aefb-6fbc6188d1f8"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		},
+		{
+			"apiVersion": "v1",
+			"kind": "Namespace",
+			"metadata": {
+				"creationTimestamp": "2021-07-22T23:43:35Z",
+				"labels": {
+					"kubernetes.io/metadata.name": "some-namespace-6"
+				},
+				"name": "some-namespace-6",
+				"resourceVersion": "15372",
+				"selfLink": "/api/v1/namespaces/some-namespace-6",
+				"uid": "8beae6c2-773a-4c2d-909b-8df4e09c9430"
+			},
+			"spec": {
+				"finalizers": [
+					"kubernetes"
+				]
+			},
+			"status": {
+				"phase": "Active"
+			}
+		}
+	],
+	"kind": "List",
+	"metadata": {
+		"resourceVersion": ""
+	}
+}
